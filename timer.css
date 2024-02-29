@@ -1,0 +1,77 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(57, 57, 57);
+}
+h1{
+    color: lightblue;
+    position: flex;
+    text-align: center;
+    margin-right: 40px;
+    letter-spacing: 10px;
+}
+.middle{
+    color: azure;
+    margin-top: 70px;
+    text-align: center;
+}
+.lor{
+    color: lightblue;
+    margin-top: 70px;
+    text-align: center;
+}
+.clock{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: skyblue;
+    margin-top: 40px;
+    background-color: lightblue;
+    border: 15px solid rgb(196, 117, 117);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 30%;
+    border: 10px solid white;
+    border-radius: 15px;
+    margin-left: 610px;
+    transition: width 1s;
+    transition-timing-function: ease-in-out;
+}
+.clock:hover{
+    width: 35%;
+}
+img{
+    display: flex;
+    float: left;
+    width: 400px;
+    height: 400px;
+    transition: width 1s;
+    transition-timing-function: ease-in-out;
+}
+img:hover{
+    width: 450px;
+}
+#days{
+    padding: 10px;
+    color: black;
+}
+#hours{
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+}
+#minutes{
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+}
+#seconds{
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+}
+span{
+    color: white;
+}
+
